@@ -7,7 +7,7 @@ def my_collect (argument)
   while argument.length > i
     yield argument[i]
     i +=1
-  
+    new_array.push
   end
   argument
 end
