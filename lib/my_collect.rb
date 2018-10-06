@@ -8,7 +8,7 @@ def my_collect (argument)
       new_array.push(yield argument[i])
       i +=1
   end
-  argument
+  new_array
 end
 
 my_collect(array) do |name|
