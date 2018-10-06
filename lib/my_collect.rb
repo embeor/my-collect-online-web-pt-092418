@@ -5,9 +5,8 @@ def my_collect (argument)
   i = 0
   new_array = []
   while argument.length > i
-    yield argument[i]
-    i +=1
-    new_array.push
+      new_array.push(yield argument[i])
+      i +=1
   end
   argument
 end
